@@ -8,7 +8,7 @@ export default class Calendar extends Component {
   static propTypes = {
     weekOffset: PropTypes.number.isRequired,
     date: PropTypes.object.isRequired,
-    events: PropTypes.object.isRequired,
+    events: PropTypes.array.isRequired,
     renderDay: PropTypes.func,
     onNextMonth: PropTypes.func.isRequired,
     onPrevMonth: PropTypes.func.isRequired,
